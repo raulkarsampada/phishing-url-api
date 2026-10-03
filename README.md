@@ -48,4 +48,4 @@ Accuracy 1.00 | Precision 1.00 | Recall 1.00 on a held-out 20% split of 6,000 sy
 
 The model is trained on a synthetic URL dataset generated in `train.py`, so metrics are indicative only. To use real data, add `data/urls.csv` (columns: `url,label`, 1 = phishing) and re-run `python train.py`. It uses lexical features only, so it can miss phishing on hijacked legitimate domains.
 
-![API docs screenshot](screenshot.png)
+![alt text](image.png)
