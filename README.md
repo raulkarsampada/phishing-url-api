@@ -2,10 +2,7 @@
 
 # Phishing URL Risk Scoring API
 
-**Live demo:** ==> https://phishing-url-api-n0er.onrender.com (free tier, may take about 50 seconds to wake up)
-
-REST API that scores...
-
+**Live demo:** https://phishing-url-api-n0er.onrender.com/docs (free tier, may take about 50 seconds to wake up)
 ## Tech
 Python, FastAPI, scikit-learn (Random Forest), pytest, Docker, GitHub Actions
 
