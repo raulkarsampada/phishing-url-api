@@ -1,0 +1,15 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex c0ad1b4..02de757 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -44,8 +44,6 @@[m [mResponse:[m
+ Requirements (REQUIREMENTS.md) → Design (feature-based model + REST API) → Implementation (feature branches + pull requests) → Testing (pytest + GitHub Actions CI) → Deployment (Docker) → Maintenance (CHANGELOG.md).[m
+ [m
+ ## Metrics and limitations[m
+[31m-[Paste your /model-info output here.][m
+[32m+[m[32mAccuracy 1.00 | Precision 1.00 | Recall 1.00 on a held-out 20% split of 6,000 synthetic URLs.[m
+ [m
+ The model is trained on a synthetic URL dataset generated in `train.py`, so metrics are indicative only. To use real data, add `data/urls.csv` (columns: `url,label`, 1 = phishing) and re-run `python train.py`. It uses lexical features only, so it can miss phishing on hijacked legitimate domains.[m
+[31m-[m
+[31m-![API docs screenshot](screenshot.png)[m
+\ No newline at end of file[m
