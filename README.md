@@ -1,7 +1,8 @@
 # Phishing URL Risk Scoring API
 
-REST API that scores a URL's phishing risk and explains the red flags. It analyzes the URL string only and never visits the link.
+# Phishing URL Risk Scoring API
 
+**Live demo:** https://phishing-url-api-n0er.onrender.com/docs (free tier, may take about 50 seconds to wake up)
 ## Tech
 Python, FastAPI, scikit-learn (Random Forest), pytest, Docker, GitHub Actions
 
